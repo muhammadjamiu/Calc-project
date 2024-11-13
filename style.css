@@ -77,7 +77,7 @@ button:active {
     background-color: rgb(204, 108, 12);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 760px) {
     body {
         height: 50vh;
         background-color: hsl(0, 0%, 95%);
@@ -88,10 +88,9 @@ button:active {
         font-family: Arial, sans-serif;
         background-color: hsl(0, 0%, 15%);
         border-radius: 15px;
-        max-width: 500px;
-        overflow: hidden;
+        max-width: 100%;
+       
         padding: 1rem;
-        margin-left: 30px;
 
     }
 
@@ -103,15 +102,14 @@ button:active {
     }
 
     #display {
-        width: 50%;
+        width: 90%;
         padding: 10px;
-        font-size: 2rem;
+        font-size: 1rem;
         text-align: left;
         border: none;
         background-color: hsl(0, 0%, 20%);
         color: white;
         margin-bottom: 20px;
-
 
     }
 
@@ -123,7 +121,7 @@ button:active {
     }
 
     button {
-        width: 50px;
+        width: 40px;
         height: 50px;
         border-radius: 50px;
         border: none;
